@@ -97,3 +97,5 @@ RUN R CMD INSTALL scde_1.1.tar.gz
 # RUN gdebi -n rstudio-server-0.98.1073-amd64.deb
 
 RUN apt-get clean
+
+RUN pip3 install pysam
